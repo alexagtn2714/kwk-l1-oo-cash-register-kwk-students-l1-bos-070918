@@ -15,8 +15,8 @@ class AmazonTransaction
       @items << title 
   end 
   
-  def apply_discount(discount = 20)
-    @total << discount
+  def apply_discount
+    @total == discount
   end 
 end 
 

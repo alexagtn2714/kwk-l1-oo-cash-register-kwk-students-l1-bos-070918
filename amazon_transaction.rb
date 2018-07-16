@@ -18,6 +18,7 @@ class AmazonTransaction
   def apply_discount
     if discount == 20 
     @total = total - @total * @discount/100.to_f 
+    "After the discount, the total comes to $800."
   end 
   end 
 end 

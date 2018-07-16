@@ -17,6 +17,7 @@ class AmazonTransaction
   
   def apply_discount
     @total << discount
+  end 
 end 
 
 

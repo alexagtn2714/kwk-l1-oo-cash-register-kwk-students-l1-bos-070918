@@ -1,7 +1,10 @@
 # Code your cash register here!
 
 def Amazon 
-attr_accessor
+  attr_accessible :total 
+  
+  def initialize()
+
 
 
 

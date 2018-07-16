@@ -19,6 +19,7 @@ class AmazonTransaction
     if discount == 20 
     @total = total - @total * @discount/100.to_f 
   end 
+  end 
 end 
 
 

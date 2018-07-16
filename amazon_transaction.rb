@@ -13,7 +13,7 @@ class AmazonTransaction
       
       @total += price
       @items =["eggs"]
-      @item = ["books"]
+      @item = ["books", 5.00, 3]
       
   end 
 end 

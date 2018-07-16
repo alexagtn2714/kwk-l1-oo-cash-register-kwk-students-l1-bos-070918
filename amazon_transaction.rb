@@ -16,23 +16,11 @@ class AmazonTransaction
   end 
   
   def apply_discount
+    if discount == 20 
+      
     @total -= discount 
   end 
 end 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
